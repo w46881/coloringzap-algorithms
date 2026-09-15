@@ -4,7 +4,7 @@ Image-processing routines for turning photos into printable coloring pages —
 edge detection, color quantization, region merging, and a dependency-free PDF
 writer. Pure ES modules, no build step, no third-party libraries.
 
-**These are the exact routines that run in the browser at https://coloringzap.com , a free photo-to-coloring-page tool where your picture never leaves your device — the same code, extracted so you can read it, test it, and reuse it.**
+**These are the exact routines that run in the browser at https://coloringzap.com, a free photo-to-coloring-page tool where your picture never leaves your device — the same code, extracted so you can read it, test it, and reuse it.**
 
 ## Why this exists
 
