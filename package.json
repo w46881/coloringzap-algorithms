@@ -1,0 +1,50 @@
+{
+  "name": "coloringzap-algorithms",
+  "version": "1.0.0",
+  "description": "Dependency-free image processing for turning photos into printable coloring pages: Sobel edge detection, k-means color quantization, region merging, and a hand-written PDF writer.",
+  "type": "module",
+  "main": "src/edge-detection.js",
+  "exports": {
+    "./edge-detection": "./src/edge-detection.js",
+    "./color-quantize": "./src/color-quantize.js",
+    "./region-merge": "./src/region-merge.js",
+    "./pdf-writer": "./src/pdf-writer.js"
+  },
+  "files": [
+    "src",
+    "docs",
+    "samples",
+    "scripts",
+    "LICENSE",
+    "ATTRIBUTIONS.md"
+  ],
+  "keywords": [
+    "photo-to-coloring-page",
+    "coloring-page-generator",
+    "sobel",
+    "edge-detection",
+    "color-quantization",
+    "kmeans",
+    "pdf",
+    "browser",
+    "image-processing"
+  ],
+  "homepage": "https://coloringzap.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w46881/coloringzap-algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/w46881/coloringzap-algorithms/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "sweep": "node scripts/sweep-params.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
